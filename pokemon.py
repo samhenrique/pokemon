@@ -167,7 +167,7 @@ def menuPokedex():
         
     elif acao == 2:
         pokNome = input("Insira o nome do pokemon em questão:")
-        pokedex[pokNome].pop
+        pokedex.pop(pokNome)
         return menu()
         
     elif acao == 0:
